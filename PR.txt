@@ -16,6 +16,12 @@ De modo a armazenar os dados, foram utilizados os seguintes comandos:
     // armazenar as cidades
     mongoimport -d MAPA2022 -c cids --file cidades.json --jsonArray
 
+A API pode ser executada a partir da diretoria ex1/mapa através do seguinte comando:
+
+    npm start
+
+O servidor fica à escuta na porta 4444.
+
 ------------------------------------------------------------------------------------------------------------
 
 Exercício 2:
@@ -144,6 +150,12 @@ R.: 7
 Q.: Quantos processos (classes de nível 3) estão relacionados com 750.20.600?
 R.: 0
 
+A aplicação pode ser executada a partir da diretoria ex2/clac através do seguinte comando:
 
-TOKEN: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTRlY2VhNmI1ZDVjMjQ3NmNmMDhiMSIsImxldmVsIjozLjUsImVudGlkYWRlIjoiZW50X0EzRVMiLCJlbWFpbCI6InJwY3cyMDIyQGdtYWlsLmNvbSIsImlhdCI6MTY1NDAxNDUzMiwiZXhwIjoxNjU0MDQzMzMyfQ.aXGP-q812WH5kzL1E4n5QfqfUm-YV0cHEM0xzuM1kyzPmPtJp4dGCGhL7lIOxYqlORUk6J-gHAC9sHQvj04rP0en_YgLKtPEUCrjIWOTcWvXSy92Vy0RhXtLfyv7TwGYaV1gOdb5NWFwg5lH_ovuhNa_5U8zaHKzRGduvvZl8k2X8ZqMtTrIX_--ccHO33YzmQdUoZY757r6cbNcabnjFThUSm-XGYjVScWpFMs5lG6G2zeXaOuBeiPEYGsfe2sFiCKvxzI-HK6K3jZ5h6yV91AIepSGIR7KO0pDyIEqNJcNTEwfrdQUUHzeRw8nPIkuNWnznJbgLuOOQjFslll3-A
+    npm start
+
+O servidor fica à escuta na porta 4422.
+
+
+Token obtido: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTRlY2VhNmI1ZDVjMjQ3NmNmMDhiMSIsImxldmVsIjozLjUsImVudGlkYWRlIjoiZW50X0EzRVMiLCJlbWFpbCI6InJwY3cyMDIyQGdtYWlsLmNvbSIsImlhdCI6MTY1NDAxNDUzMiwiZXhwIjoxNjU0MDQzMzMyfQ.aXGP-q812WH5kzL1E4n5QfqfUm-YV0cHEM0xzuM1kyzPmPtJp4dGCGhL7lIOxYqlORUk6J-gHAC9sHQvj04rP0en_YgLKtPEUCrjIWOTcWvXSy92Vy0RhXtLfyv7TwGYaV1gOdb5NWFwg5lH_ovuhNa_5U8zaHKzRGduvvZl8k2X8ZqMtTrIX_--ccHO33YzmQdUoZY757r6cbNcabnjFThUSm-XGYjVScWpFMs5lG6G2zeXaOuBeiPEYGsfe2sFiCKvxzI-HK6K3jZ5h6yV91AIepSGIR7KO0pDyIEqNJcNTEwfrdQUUHzeRw8nPIkuNWnznJbgLuOOQjFslll3-A
 

@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  p
+  adress
+    a(href="/") Página Inicial
+
+  h1 
+    span= c.titulo
+  p 
+    b Código: 
+    span= c.codigo
+  p 
+    b Descrição: 
+    span= c.descricao
+  p
+    if(c.filhos.length)
+      b Descendentes:
+        ul
+          each d in c.filhos
+            li 
+              a(href="/classes/c"+d.codigo)= d.titulo    
+    if(t.length)
+      b Termos de índice: 
+        ul     
+          each item in t 
+            li
+              a(href="/termos")= item.termo
+  hr
+    

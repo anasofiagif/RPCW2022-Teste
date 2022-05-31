@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  p 
+  adress
+    a(href="/") Página Inicial
+
+  h1 Classes
+  
+  table 
+    tr
+      th Código 
+      th Título
+    each item in classList
+      tr 
+        td
+          a(href="/classes/c"+item.codigo)= item.codigo
+        td= item.titulo
