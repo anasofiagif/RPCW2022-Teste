@@ -1,0 +1,6 @@
+
+
+Mongo:
+
+mongoimport -d MAPA2022 -c ligs --file ligacoes.json --jsonArray
+mongoimport -d MAPA2022 -c cids --file cidades.json --jsonArray
