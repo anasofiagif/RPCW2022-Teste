@@ -150,7 +150,7 @@ R.: 7
 Q.: Quantos processos (classes de nível 3) estão relacionados com 750.20.600?
 R.: 0
 
-A aplicação pode ser executada a partir da diretoria ex2/clac através do seguinte comando:
+A aplicação pode ser executada a partir da diretoria ex2/clav através do seguinte comando:
 
     npm start
 
