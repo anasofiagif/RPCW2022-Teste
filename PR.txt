@@ -1,6 +1,24 @@
+Exercício 1:
+
+Neste exercício, dividiu-se o dataset fornecido em dois:
+    - ligacoes.json: dataset com as ligações
+    - cidades.json: dataset com as cidades
+
+Estes foram armazenados numa base de dados em MongoDB chamada MAPA2022 em duas coleções distintas:
+    - ligs: coleção que contém as ligações
+    - cids: coleção que contém as cidades
+
+De modo a armazenar os dados, foram utilizados os seguintes comandos:
+
+    // armazenar as ligações
+    mongoimport -d MAPA2022 -c ligs --file ligacoes.json --jsonArray
+
+    // armazenar as cidades
+    mongoimport -d MAPA2022 -c cids --file cidades.json --jsonArray
+
+------------------------------------------------------------------------------------------------------------
+
+Exercício 2:
 
 
-Mongo:
 
-mongoimport -d MAPA2022 -c ligs --file ligacoes.json --jsonArray
-mongoimport -d MAPA2022 -c cids --file cidades.json --jsonArray
